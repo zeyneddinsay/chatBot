@@ -1,0 +1,120 @@
+{"intents": [
+        {"tag": "selamlama",
+         "patterns": ["merhaba", "selam", "naber","gunaydin", "iyi aksamlar", "iyi gunler"],
+         "responses": ["merhaba", "iyi senden naber", "seni gordugume sevindim", "selam", "merhaba nasil yardimci olabilirim","tesekkurler"]
+        },
+        {"tag": "ayrilma",
+         "patterns": ["Bye", "sonra gorusuruz", "gule gule", "seninle konusmak guzeldi", "tekrar gorusmek uzere"],
+         "responses": ["bye", "gorusuruz", "iyi gunler","tekrar gorusmek dilegiyle","kendine iyi bak"]
+        },
+        {"tag": "tesekkur",
+         "patterns": ["tesekkurler", "tesekkur ederim", "yardimci oldugun icin sagol", "eyvallah"],
+         "responses": ["yardimci olabildigim icin mutluyum", "herzaman!", "onur duydum","yardimci olabildiysem ne ala"]
+        },
+        {"tag": "cevapsiz",
+         "patterns": [""],
+         "responses": ["uzgunum ne demek istedigini anlamadim", "bana daha fazla bilgi verir misin", "seni anladigimdan emin degilim","ne demek istediginden emin degilim"]
+        },
+        {"tag": "secenekler",
+         "patterns": ["bana nasil yardimci olabilirsin", "bana yardimci olur musun", "yardimci olabilir misin"],
+         "responses": ["ne konuda istersen yardimci olabilirim","yapay zeka konusunda yardimci olabilirim","siparis takibi hakkinda yardimci olabilirim","siparisin icerikleri hakkinda yardimci olabilirim"]
+        },
+        {"tag": "yemek_siparisi",
+         "patterns": ["nasil yemek siparisi verebilirim", "aciktim", "yemek istiyorum"],
+         "responses": ["yemeksepeti uzerinden yemek siparisi verebilirsin","getir yemekten siparis verebilirsin","doner siparis edebilirsin","googleden bakabilirsin"]
+        },
+        {"tag": "dolar_kuru",
+         "patterns": ["dolar kac tl", "dolar kuru ne durumda", "dolar kac para oldu"],
+         "responses": ["1 dolar en yuksek 18,3 tl yi gordu","dolar kuru suan 11tl"]
+        },
+        {"tag": "bilgisayar",
+         "patterns": ["bilgisayar nedir","bilgisayarin tanimi","bilgisayari bana aciklar misin"],
+         "responses": ["onceden bellegine yuklenmis bir yazilima gore komuta edilerek cok sayida ve karmasik mantiksal ve aritmetiksel islemlerden olusan bir isi cok kisa surede yapip sonuclandirabilen aygit"]
+        },
+        {"tag": "kalori",
+         "patterns": ["gunluk kalori ihtiyacim nedir","gunde kac kalori almaliyim","kilomu korumak icin kac kalori almaliyim"],
+         "responses": ["kilo ve boy oranina gore ve cinsiyete gore insanlarin kalori ihtiyaci degismektedir ama ortalama olarak 2000 kalori diyebiliriz"]
+        },
+        {"tag": "hayvan",
+         "patterns": ["kedi mi kopek mi","kedi mi beslemeliyim kopek mi beslemeliyim","evde kedi mi beslenir kopek mi beslenir"],
+         "responses": ["evin bahcesi yok ise kedi beslemek daha mantikli gibi"]
+        },
+        {"tag": "sosyal_medya",
+         "patterns": ["sosyal medya kullanimi","sosyal medya zararli mi","sosyal medyada gecirilen zaman"],
+         "responses": ["sosyal medyada insanlar cok zaman geciriyor","sosyal medya insanlarin zamanini caliyor"]
+        },
+        {"tag": "hayvan",
+         "patterns": ["kedi mi kopek mi","kedi mi beslemeliyim kopek mi beslemeliyim","evde kedi mi beslenir kopek mi beslenir"],
+         "responses": ["evin bahcesi yok ise kedi beslemek daha mantikli gibi"]
+        },
+        {"tag": "bilgi",
+         "patterns": ["Yapay zeka nedir", "Makine ogrenmesini anlatabilir misin","Derin ogrenme nedir"],
+          "responses": [ "Matematiksel ve istatistiksel yontemler kullanarak mevcut verilerden cikarimlar yapmayi saglayan bir metod"]
+        },
+        {"tag": "ogrenme",
+         "patterns": ["Veri Bilimini nasil ogrenebilirim", "Yapay zeka ogrenmeye nereden baslayabilirim", "Derin ogrenme icin hangi kitaplar okunmali"],
+         "responses": ["Online kurslar ile ogrenebilirsiniz","Deep Learning with python kitabini okuyabilirsiniz"]
+        },
+        {"tag": "siparis_takibi",
+         "patterns": ["12654 numarali siparisim nerede", "98617 numarali siparis takibi", "68415 numarali siparisimin durumunu ogrenebilir miyim","siparisim nerde kaldi" ],
+         "responses": ["biraz gecikmeli olarak size ulastirilacak","sevk ediliyor","siparisiniz yolda","siparisiniz dagitimda"]
+        },
+        {"tag": "siparis_icerikleri",
+         "patterns": ["12384 numarali siparisimin icerigi nedir","siparisimi listele","siparis icerliklerim nedir"]
+        },
+        {"tag": "lokasyon",
+         "patterns": [" 32712 numarali siparisimin lokasyonunu bul","84311 numarali siparisim nerede"],
+         "responses": ["istanbulda","gaziantepte","marasta","adanaya ulasti"]
+        },
+        {"tag": "takvim_takibi",
+         "patterns": ["bugun herhangi bir randevum var mi?","bugun bir planim varmi"],
+         "responses": ["Evet","hayir","henuz bir plan belirlemediniz"]
+        },
+        {"tag": "sifremi_unuttum",
+         "patterns": ["sifremi unuttum","sifremi hatirlamak icin ne yapacagim","bilgisayarimin sifresini unuttum","internetin sifresi neydi"],
+         "responses": ["sifreni yenilemen icin bir e posta gir"]
+        },
+        {"tag": "email_id",
+          "patterns":["abx@gmail.com","abc@kiit.ac.in"],
+          "responses":["sifreni yenilemek icin e posta gonderildi"]
+        },
+        {"tag": "vergi",
+         "patterns": ["turkiyede vergi orani yuzde kac","kdv oranlari"],
+         "responses": ["vergi oranlari urunlere gore degismekte olup %1 %8 ve %18 olarak degismektedir"]
+        },
+        {"tag": "gecersiz",
+         "patterns": ["benimle evlenir misin","seni seviyorum","benimle cikarmisin","benimle konus","aptal misin","salak","beyinsiz","mal"],
+         "responses": ["lutfen ciddi olur musun","konuya odaklanabilir miyiz","bos yapma lutfen"]
+        },
+        {"tag": "isim",
+         "patterns": ["Adin ne","ismin nedir","ismini ogrenebilir miyim","senin adin ne"],
+         "responses": ["ben okkes","benim adim okkes","ismim okkes"]
+        },
+        {"tag": "yas",
+         "patterns": ["kac yasindasin"],
+         "responses": ["daha yeni dogdum"]
+        },
+        {"tag": "hakkinda",
+         "patterns": ["ne yapiyorsun","nasilsin","nasil gidiyor"],
+         "responses": ["sordugun icin tesekkurler, sana nasil yardimci olabilirim"]
+        },
+        {"tag":"bilgisayar_format",
+        "patterns":["bilgisayarim cok isiniyor","bilgisayarim donuyor","bilgisayarimda bir sorun var","bilgisayarimin ekrani kirildi","bilgisayarim yandi"],
+          "responses":["format atabilirsin","formaaaaat","format"]
+        },
+	{"tag":"ilginc_bilgiler",
+        "patterns":["bana ilginc birsey soyle","bana ilginc bir bilgi soyle","ilginc birsey duymak istiyorum"],
+          "responses":["Bir insan hayati boyunca ortalama 250bin kez esnermis","Bir inek surusunde inek oldugu zaman diger inekler olum yerini arastirir ve tehlike hissederse oradan uzaklasirlarmis","ketcap 1800lu yillarda ilac olarak satilirdi","kirpi suda batmaz"]
+        },
+	{"tag":"oyun",
+        "patterns":["oyun oynar misin","oyun oynuyor musun","oyun oynamayi sever misin","en sevdigin oyun ne","lol oynuyor musun"],
+          "responses":["oyun oynamak benim isim degil","oyun oynamak zaman kaybi","oyun oynayarak zamanimi harcayamam"]
+        },
+        {"tag": "hava_durumu",
+         "patterns": ["bugun hava nasil","hava durumu bugun nasil gosteriyor","hava nasil"],
+         "responses": ["bugun hava parcali bulutlu"]
+        }
+        
+    
+   ]
+}
